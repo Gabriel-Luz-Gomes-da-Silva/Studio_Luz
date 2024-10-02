@@ -73,7 +73,8 @@ h1 {
 }
 
 @media (max-width: 600px) {
-    .product {
-        max-width: 100%;
+    body {
+        background-size: contain; /* Em telas menores, a imagem se ajusta dentro do elemento */
+        background-attachment: scroll; /* A imagem se move com o conteúdo */
     }
 }
