@@ -49,11 +49,13 @@ h1 {
 }
 
 .product-image {
-    max-width: 25px; /* Tamanho da imagem */
-    height: auto; /* Manter a proporção da imagem */
+    width: 50px; /* Define a largura padrão para todas as imagens */
+    height: 60px; /* Define a altura padrão para todas as imagens */
+    object-fit: contain; /* Garante que a imagem mantenha a proporção e fique contida no tamanho definido */
     margin-right: 15px; /* Espaçamento entre a imagem e o texto */
-    filter: drop-shadow(1px 1px 1px #cb9e46); /* Aplica a sombra com novos valores */
+    filter: drop-shadow(1px 1px 1px #cb9e46); /* Aplica a sombra */
 }
+
 
 .product-info {
     display: flex;
