@@ -1,4 +1,3 @@
-/* Estilos básicos para o layout */
 * {
     margin: 0;
     padding: 0;
@@ -7,12 +6,20 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url("Convite\ de\ Casamento\ Renda\ Floral\ Dourado.png"); /* Adiciona a imagem de fundo */
-    background-size: contain; /* A imagem se ajusta dentro do body */
+    background-image: url("Convite\ de\ Casamento\ Renda\ Floral\ Dourado.png");
+    background-size: cover; /* A imagem cobre todo o fundo do elemento */
     background-repeat: no-repeat; /* A imagem não se repete */
     background-position: center; /* A imagem é centralizada */
+    background-attachment: fixed; /* A imagem não se move ao rolar a página (opcional) */
     color: #333;
     padding: 10px;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-size: contain; /* Em telas menores, a imagem se ajusta dentro do elemento */
+        background-attachment: scroll; /* A imagem se move com o conteúdo */
+    }
 }
 
 header {
