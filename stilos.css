@@ -4,15 +4,26 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%; /* Define altura total para html e body */
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-image: url("Convite\ de\ Casamento\ Renda\ Floral\ Dourado.png");
+    background-image: url('Convite\ de\ Casamento\ Renda\ Floral\ Dourado.png'); /* Substitua pelo caminho da sua imagem */
     background-size: cover; /* A imagem cobre todo o fundo do elemento */
     background-repeat: no-repeat; /* A imagem não se repete */
     background-position: center; /* A imagem é centralizada */
     background-attachment: fixed; /* A imagem não se move ao rolar a página (opcional) */
-    color: #333;
-    padding: 10px;
+    overflow: hidden; /* Oculta qualquer conteúdo que exceda a altura */
+}
+
+header {
+    text-align: center;
+    
+    color: white;
+    padding: 20px 0;
+    border-radius: 10px;
 }
 
 @media (max-width: 600px) {
