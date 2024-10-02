@@ -7,10 +7,10 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url("Design\ sem\ nome.png"); /* Adiciona a imagem de fundo */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-image: url("Convite\ de\ Casamento\ Renda\ Floral\ Dourado.png"); /* Adiciona a imagem de fundo */
+    background-size: contain; /* A imagem se ajusta dentro do body */
+    background-repeat: no-repeat; /* A imagem não se repete */
+    background-position: center; /* A imagem é centralizada */
     color: #333;
     padding: 10px;
 }
