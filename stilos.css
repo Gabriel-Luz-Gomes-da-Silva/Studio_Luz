@@ -6,31 +6,16 @@
 
 html, body {
     height: 100%; /* Define altura total para html e body */
+    width: 100%; /* Define largura total para html e body */
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('Convite\ de\ Casamento\ Renda\ Floral\ Dourado.png'); /* Substitua pelo caminho da sua imagem */
+    background-image: url("Convite de Casamento Renda Floral Dourado.png");
     background-size: cover; /* A imagem cobre todo o fundo do elemento */
     background-repeat: no-repeat; /* A imagem não se repete */
     background-position: center; /* A imagem é centralizada */
     background-attachment: fixed; /* A imagem não se move ao rolar a página (opcional) */
-    overflow: hidden; /* Oculta qualquer conteúdo que exceda a altura */
-}
-
-header {
-    text-align: center;
-    
-    color: white;
-    padding: 20px 0;
-    border-radius: 10px;
-}
-
-@media (max-width: 600px) {
-    body {
-        background-size: contain; /* Em telas menores, a imagem se ajusta dentro do elemento */
-        background-attachment: scroll; /* A imagem se move com o conteúdo */
-    }
 }
 
 header {
@@ -38,13 +23,6 @@ header {
     color: white;
     padding: 20px 0;
     border-radius: 10px;
-}
-
-h1 {
-    font-size: 100px; /* Aumentado para dar mais destaque */
-    font-family: 'Brush Script MT', cursive;
-    color: #000000; /* Cor branca */
-    margin-bottom: 10px;
 }
 
 .product-list {
@@ -53,6 +31,17 @@ h1 {
     align-items: center;
     gap: 20px;
     margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    /* Estilos específicos para dispositivos móveis, se necessário */
+}
+
+h1 {
+    font-size: 100px; /* Aumentado para dar mais destaque */
+    font-family: 'Brush Script MT', cursive;
+    color: #000000; /* Cor branca */
+    margin-bottom: 10px;
 }
 
 .product {
@@ -88,11 +77,4 @@ h1 {
     font-size: 16px;
     color: #d32f2f;
     margin: 5px 0; /* Margem entre o nome e o preço */
-}
-
-@media (max-width: 600px) {
-    body {
-        background-size: contain; /* Em telas menores, a imagem se ajusta dentro do elemento */
-        background-attachment: scroll; /* A imagem se move com o conteúdo */
-    }
 }
