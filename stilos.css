@@ -49,7 +49,7 @@ h1 {
 }
 
 .product img {
-    max-width: 50px; /* Tamanho fixo da imagem */
+    max-width: 20px; /* Tamanho fixo da imagem */
     height: auto;
     margin-right: 15px; /* Espaçamento entre a imagem e o texto */
 }
