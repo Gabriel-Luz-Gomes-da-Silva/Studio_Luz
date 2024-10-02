@@ -73,9 +73,3 @@ h1 {
     color: #d32f2f;
     margin: 5px 0; /* Margem entre o nome e o preço */
 }
-
-@media (max-width: 600px) {
-    .product {
-        max-width: 100%;
-    }
-}
