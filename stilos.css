@@ -24,7 +24,7 @@ header {
 
 h1 {
     filter: drop-shadow(5px 10px 5px #cb9e46); /* Aplica a sombra */
-    font-size: 90px; /* Aumentado para dar mais destaque */
+    font-size: 75px; /* Aumentado para dar mais destaque */
     font-family: 'Brush Script MT', cursive;
     color: #000000; /* Cor branca */
     margin-bottom: 10px;
