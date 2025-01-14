@@ -32,6 +32,14 @@ h1 {
     margin-bottom: 10px;
 }
 
+h3 {
+    filter: drop-shadow(5px 10px 5px #cb9e46); /* Aplica a sombra */
+    font-size: 60px; /* Aumentado para dar mais destaque */
+    font-family: 'Brush Script MT', cursive;
+    color: #000000; /* Cor branca */
+    margin-bottom: 10px;
+}
+
 .product-list {
     display: flex;
     flex-direction: column;
